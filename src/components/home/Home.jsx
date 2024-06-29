@@ -3,7 +3,7 @@ import "./home.css";
 import Social from "./Social";
 import Data from './Data';
 import ScrollDown from './ScrollDown';
-import AboutImg from '../../assets/about.png'; // Ensure the correct path
+import AboutImg from '../../assets/about.png'; 
 
 const Home = () => {
   const [imageLoaded, setImageLoaded] = useState(false);
