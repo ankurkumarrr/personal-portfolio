@@ -1,9 +1,6 @@
 import React, { useState } from 'react';
 import './about.css';
 import AboutImg from '../../assets/about.png';
-import CoreCV from '../../assets/AnkurKumar_Core_CV.pdf';
-import BizzCV from '../../assets/AnkurKumar_Business_CV.pdf';
-import TechCV from '../../assets/AnkurKumar_Tech_CV.pdf';
 import Info from './Info';
 
 const About = () => {
@@ -65,20 +62,20 @@ const About = () => {
 
                       <ul className="cv__modal-cvs grid">
                           <li className="cv__modal-cv">
-                              <a download="" href={CoreCV} className="button button--flex">
-                                  Core CV
+                              <a download="" target='_blank' rel='noreferrer' href='https://drive.google.com/file/d/1EKRHo0nrud24-_OgwVuuUpK3P-P-qvXN/view?usp=sharing' className="button button--flex">
+                                  Electrical Role CV
                                   <i className="uil uil-download-alt button__icon"></i>
                               </a>
                           </li>
                           <li className="cv__modal-cv">
-                              <a download="" href={BizzCV} className="button button--flex">
-                                  Design CV
+                              <a target='_blank' rel='noreferrer' download="" href='https://drive.google.com/file/d/1vBXieqEoyAqR59V0oJabbOqBlUeVm3gp/view?usp=sharing' className="button button--flex">
+                                  Business Role CV
                                   <i className="uil uil-download-alt button__icon"></i>
                               </a>
                           </li>
                           <li className="cv__modal-cv">
-                              <a download="" href={TechCV} className="button button--flex">
-                                  Development CV
+                              <a target='_blank' rel='noreferrer' download="" href='https://drive.google.com/file/d/1ZXNWEW2lAqHzdUY8Z1xhEPISLhNzUoYH/view?usp=sharing' className="button button--flex">
+                                  Technical Role CV
                                   <i className="uil uil-download-alt button__icon"></i>
                               </a>
                           </li>

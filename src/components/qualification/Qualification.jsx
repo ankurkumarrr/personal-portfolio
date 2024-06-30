@@ -45,11 +45,11 @@ const Qualification = () => {
           }>
             <div className="qualification__data">
               <div>
-                <h3 className="qualification__title">Mello</h3>
+              <a target='_blank' rel="noreferrer" href="https://mellohealth.web.app"><h3 className="qualification__title">Mello <i href='' className="uil uil-arrow-up-right"></i></h3></a>
                 <span className="qualification__subtitle">CoFounder</span>
 
                 <div className="qualification__calendar">
-                  <i className="uil uil-calendar-alt"></i> 2022 - Present
+                  <i className="uil uil-calendar-alt"></i> Apr '23 
                 </div>
               </div>
 
@@ -72,7 +72,7 @@ const Qualification = () => {
                 <span className="qualification__subtitle">Research Intern</span>
 
                 <div className="qualification__calendar">
-                  <i className="uil uil-calendar-alt"></i> 2022 - Present
+                  <i className="uil uil-calendar-alt"></i> May '23 - Nov. '23
                 </div>
               </div>
             </div>
@@ -83,13 +83,12 @@ const Qualification = () => {
                 <span className="qualification__subtitle">Solutions Developer Intern</span>
 
                 <div className="qualification__calendar">
-                  <i className="uil uil-calendar-alt"></i> 2021 - Present
+                  <i className="uil uil-calendar-alt"></i> Oct. '22 - Jan. '23
                 </div>
               </div>
 
               <div>
                 <span className="qualification__rounder"></span>
-                <span className="qualification__line"></span>
               </div>
             </div>
 
@@ -147,7 +146,6 @@ const Qualification = () => {
 
               <div>
                 <span className="qualification__rounder"></span>
-                <span className="qualification__line"></span>
               </div>
             </div>
           </div>
