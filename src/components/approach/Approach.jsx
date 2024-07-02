@@ -9,7 +9,7 @@ const Approach = () => {
   };
 
   return (
-    <section className="approach section" id="approach">
+    <section className="approach section">
       <h2 className="section__title">My Approach</h2>
       <span className="section__subtitle">El camino adecuado</span>
 
