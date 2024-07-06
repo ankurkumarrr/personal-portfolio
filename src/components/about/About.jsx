@@ -62,6 +62,12 @@ const About = () => {
 
                       <ul className="cv__modal-cvs grid">
                           <li className="cv__modal-cv">
+                              <a target='_blank' rel='noreferrer' download="" href='https://drive.google.com/file/d/1ZXNWEW2lAqHzdUY8Z1xhEPISLhNzUoYH/view?usp=sharing' className="button button--flex">
+                                  Technical Role CV
+                                  <i className="uil uil-download-alt button__icon"></i>
+                              </a>
+                          </li>
+                          <li className="cv__modal-cv">
                               <a download="" target='_blank' rel='noreferrer' href='https://drive.google.com/file/d/1EKRHo0nrud24-_OgwVuuUpK3P-P-qvXN/view?usp=sharing' className="button button--flex">
                                   Electrical Role CV
                                   <i className="uil uil-download-alt button__icon"></i>
@@ -73,12 +79,7 @@ const About = () => {
                                   <i className="uil uil-download-alt button__icon"></i>
                               </a>
                           </li>
-                          <li className="cv__modal-cv">
-                              <a target='_blank' rel='noreferrer' download="" href='https://drive.google.com/file/d/1ZXNWEW2lAqHzdUY8Z1xhEPISLhNzUoYH/view?usp=sharing' className="button button--flex">
-                                  Technical Role CV
-                                  <i className="uil uil-download-alt button__icon"></i>
-                              </a>
-                          </li>
+                          
                       </ul>
                   </div>
               </div>

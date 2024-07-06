@@ -34,7 +34,7 @@ const WorkItems = ({ item }) => {
             </a>
           )}
         </div>
-        <img src={item.image} alt="" className="work__img" />
+        <p className="work__description">{item.shortDesc}</p>
         <div className="work__buttons">
           <button className="work__button" onClick={handleOpenModal}>
             View More <i className="bx bx-right-arrow-alt work__button-icon"></i>
@@ -47,8 +47,9 @@ const WorkItems = ({ item }) => {
           <div className="work__modal-content">
             <span className="work__modal-close" onClick={handleCloseModal}>&times;</span>
             <h3 className="work__modal-title">{item.title}</h3>
-            <img src={item.image} alt="" className="work__modal-img" />
-            <p className="work__modal-description">{item.desc}</p>
+            <div className="work__modal-description">
+              <div dangerouslySetInnerHTML={{ __html: item.fullDesc }} />
+            </div>
             <div className="work__modal-buttons">
               {item.link && (
                 <a href={item.link} className="work__modal-button" target="_blank" rel="noopener noreferrer">
