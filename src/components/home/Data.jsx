@@ -54,8 +54,8 @@ const Data = () => {
                     ></path>
             </svg>
         </h1>
-        <h3 className="home__subtitle">A Problem Solver</h3>
-        <p className="home__description">I'm Ankur based in Delhi, India.</p>
+        <h3 className="home__subtitle">Polymath</h3>
+        <p className="home__description">An avid scholar at IIT Patna, perpetually drawn to the synergy of interdisciplinary challenges.</p>
 
         <a href="#contact" className="button button--flex">
             Say Hello

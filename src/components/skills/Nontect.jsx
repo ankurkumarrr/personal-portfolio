@@ -21,7 +21,7 @@ const Nontect = () => {
                     <i className="bx bx-badge-check"></i>
                     <div>
                         <h3 className="skills__name">Figma</h3>
-                        <span className="skills__level">Basic</span>
+                        <span className="skills__level">advanced</span>
                     </div>
                 </div>
 
@@ -29,7 +29,7 @@ const Nontect = () => {
                     <i className="bx bx-badge-check"></i>
                     <div>
                         <h3 className="skills__name">Git</h3>
-                        <span className="skills__level">Basic</span>
+                        <span className="skills__level">advanced</span>
                     </div>
                 </div>
 
@@ -37,7 +37,7 @@ const Nontect = () => {
                     <i className="bx bx-badge-check"></i>
                     <div>
                         <h3 className="skills__name">Postman</h3>
-                        <span className="skills__level">Basic</span>
+                        <span className="skills__level">advanced</span>
                     </div>
                 </div>
             </div>
@@ -54,7 +54,7 @@ const Nontect = () => {
                 <div className="skills__data">
                     <i className="bx bx-badge-check"></i>
                     <div>
-                        <h3 className="skills__name">Tensorflow</h3>
+                        <h3 className="skills__name">AWS</h3>
                         <span className="skills__level">Basic</span>
                     </div>
                 </div>
@@ -62,7 +62,7 @@ const Nontect = () => {
                 <div className="skills__data">
                     <i className="bx bx-badge-check"></i>
                     <div>
-                        <h3 className="skills__name">SQL</h3>
+                        <h3 className="skills__name">Cadence Virtuoso</h3>
                         <span className="skills__level">Basic</span>
                     </div>
                 </div>
@@ -70,7 +70,7 @@ const Nontect = () => {
                 <div className="skills__data">
                     <i className="bx bx-badge-check"></i>
                     <div>
-                        <h3 className="skills__name">Verilog</h3>
+                        <h3 className="skills__name">Linux</h3>
                         <span className="skills__level">Basic</span>
                     </div>
                 </div>

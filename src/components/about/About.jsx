@@ -21,9 +21,7 @@ const About = () => {
             <div className="about__data">
               <Info />
 
-              <p className="about__description">
-                I create ....
-              </p>
+              <p className="about__description">Final year student passionate about multidisciplinary exploration—from business to tech, adept at integrating diverse fields and tackling challenges with dedication and a polymathic approach.</p>
 
               <span className="button button--flex" onClick={toggleModal}>
                 Download CV
