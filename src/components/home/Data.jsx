@@ -55,7 +55,7 @@ const Data = () => {
             </svg>
         </h1>
         <h3 className="home__subtitle">Polymath</h3>
-        <p className="home__description">An avid scholar at IIT Patna, perpetually drawn to the synergy of interdisciplinary challenges.</p>
+        <p className="home__description">An avid scholar, perpetually drawn to the synergy of interdisciplinary challenges.</p>
 
         <a href="#contact" className="button button--flex">
             Say Hello
